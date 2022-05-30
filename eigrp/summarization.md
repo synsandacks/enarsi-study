@@ -1,6 +1,6 @@
 ## Route Summarization
 
-Route summarization helps limit query scope for a prefix covered by the summary route in the EIGRP routing domain. As an example lets say you have the following prefixes advertised via EIGRP:
+Route summarization helps limit the query scope for a prefix covered by the summary route in the EIGRP routing domain. As an example lets say you have the following prefixes advertised via EIGRP:
 
 * 10.1.1.0/26
 * 10.1.1.64/26
