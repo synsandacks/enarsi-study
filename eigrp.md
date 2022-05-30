@@ -1,4 +1,4 @@
-# EIGRP Quick Info
+## EIGRP Quick Info
 
 * Routing Protocol Type: Advanced Distance Vector
 * Administrative Distance
@@ -7,8 +7,6 @@
 * IP Protocol: 88
 * Multicast address: 224.0.0.10
 * Default Metric Calculation: Bandwidth and Delay
-
-# EIGRP Configuration Basics
 
 ## Starting the EIGRP Routing Process
 
