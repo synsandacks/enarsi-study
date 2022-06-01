@@ -9,7 +9,9 @@ Route summarization helps limit the query scope for a prefix covered by the summ
 
 If any one of these networks go down every router that had the prefix in it's routing table would query to see if any other routers have a path to that network. Summarization helps limit the scope of these queries. If you add a summary route of 10.1.1.0/24 on the interfaces where you have EIGRP neighborships, you limit the query scope to 1 router querying its neighbors. The neighbors will reply that they don't have a path to that network because the specific prefix was never in it's routing table and since they didn't lose any routes they won't query any of their neighbors.
 
-When a summary route is created it will show up in the local routers routing table as an EIGRP route with a next hop of NULL0. 
+When a summary route is created it will show up in the local routers routing table as an EIGRP route with a next hop of NULL0.
+
+Also it should be noted that you can send a summary route of 0.0.0.0 0.0.0.0 and inject a default route into the EIGRP routing domain. 
 
 ### Classic Mode
 

@@ -15,3 +15,4 @@
 * [Route Summarization](summarization.md)
 * [Authentication](authentication.md)
 * [Load Balancing](load-balancing.md)
+* [EIGRP Stub](eigrp-stub.md)
