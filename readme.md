@@ -7,6 +7,7 @@ The ulitmate goal of this repo is to store my notes, but I made it public with a
 ## Repository Links
  
 * [EIGRP](eigrp/)
+* [BGP](bgp/)
 
 ## External Resources
 
