@@ -5,7 +5,7 @@
     * Internal Routes (iBGP): 200
     * External Routes (eBGP): 20
 * TCP Port: 179
-* Path Selection: Controlled by various attributes.
+* Path Selection: Controlled by various attributes.s
 
 ## Topics
 

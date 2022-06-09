@@ -1,6 +1,6 @@
 ## Load Balancing
 
-By default, EIGRP will perform equal cost load balancing on up to 4 links to a given network. However, in EIGRP you can configure it to support unequal cost load balancing as well. This is done with the *variance n* command where *n* is the acceptable amount of variance between the route metrics. With a variance of 2 EIGRP would load balance traffic across the successor route and the feasible successor route where the metric of the feasible succesor is less than 2 times the metric of the successor route. 
+By default, EIGRP will perform equal cost load balancing on up to 4 links to a given network. However, in EIGRP you can configure it to support unequal cost load balancing as well. This is done with the *variance n* command where *n* is the acceptable amount of variance between the route metrics. With a variance of 2 EIGRP would load balance traffic across the successor route and the feasible successor route where the metric of the feasible successor is less than 2 times the metric of the successor route. 
 
 As an example, let’s assume Router1 has two paths to the network 10.1.1.0/24. The successor route has a metric of 20 and the feasible successor has a metric of 40. With a variance of 3 EIGRP would load balance the traffic across both links to this network.
 

@@ -12,7 +12,7 @@ router bgp 100
 
 ### eBGP multihop
 
-In the example below we are configuring eBGP for a peer that isn't layer 3 adjacent. With this configuration we are telling BGP that my local routers path to 30.30.30.30 includes one layer 3 hop. If we did not configure multihop, the next hop router would decrement the TTL (default of 1) in the ip packet and since it would now be 0 it would be discarded. By configuring the TTL as 2 the next hop router decrements the TTL and then fowards the packet to 30.30.30.30 for neighbor establishment. 
+In the example below we are configuring eBGP for a peer that isn't layer 3 adjacent. With this configuration we are telling BGP that my local routers path to 30.30.30.30 includes one layer 3 hop. If we did not configure multihop, the next hop router would decrement the TTL (default of 1) in the ip packet and since it would now be 0 it would be discarded. By configuring the TTL as 2 the next hop router decrements the TTL and then forwards the packet to 30.30.30.30 for neighbor establishment. 
 
 ```
 router bgp 100

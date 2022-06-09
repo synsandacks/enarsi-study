@@ -28,6 +28,6 @@
 
 * **Feasibility Condition** - The mechanism EIGRP uses to determine whether a route can be used as a backup path. The feasibility condition compares a neighboring routers reported distance for a prefix against the feasible distance of the successor route. If the reported distance is less than the feasible distance the route is assumed to be a loop free feasible successor route. 
 
-* **Feasible Successor** - A route that meets the feasibilty condition and can be used as a backup path to a given destination.
+* **Feasible Successor** - A route that meets the feasibility condition and can be used as a backup path to a given destination.
 
 * **Stuck In Active** (SIA) - When a route is lost from the network an EIGRP router with this destination in their topology table will transition the route to Active. Next the router will query all of it's neighbors to see if they know how to reach the destination and start a Stuck In Active timer. All neighboring routers must reply to your query (whether they have a path or not) before the SIA timer expires. By default this timer is 3 minutes. If a neighbor does not reply before the timer expires the router will say the neighbor is stuck in active and sever the neighborship. Upon doing so it will need to query all remaining neighbors for any destinations it just lost a path to by severing the neighborship.
