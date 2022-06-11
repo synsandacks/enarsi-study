@@ -3,8 +3,11 @@
 ## Topics
 
 * [GRE Tunnel Recursive Routing](gre-recursive.md)
+* [VRF-Lite](vrf-lite.md)
 
 ## Important Terms
+
+* **Virtual Routing and Forwarding (VRF)** - The ability to create multiple and logically separated routing instances on a single router. This functionality allows you to assign interfaces to a specific VRF and by default no routing information or reachability will be achieved outside of the specific VRF.
 
 * **Generic Route Encapsulation** - A tunneling protocol that allows you to encapsulate many protocols into a unicast packet to be sent over a point to point link.
 
