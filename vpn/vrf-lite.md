@@ -14,10 +14,10 @@ Next assign a given interface to the VRF. An interface can only be assigned to a
 
 ```
 interface loopback0
-ip vrf forwarding VRFEXAMPLE
+ ip vrf forwarding VRFEXAMPLE
 ```
 
-This flexibility extends beyond interface configuration. I won't go into details here, but you can configure routing protocols to participate in specific VRF's or on a shared router you could have multiple instances of a single routing protocol participating in specific VRFs. 
+This flexibility extends beyond interface configuration. I won't go into details here, but you can configure routing protocols to participate in specific VRF's or on a shared router you could have multiple instances of a routing protocol participating in specific VRFs. 
 
 ### Show Commands
 
