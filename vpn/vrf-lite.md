@@ -38,3 +38,9 @@ Execute a ping command to validate reachability within a vrf
 ```
 ping vrf VRFEXAMPLE 192.168.12.2
 ```
+
+See all running-configuration associated with a specific vrf.
+
+```
+show running-config vrf VRFEXAMPLE
+```
