@@ -17,6 +17,7 @@
 * [Load Balancing](load-balancing.md)
 * [EIGRP Stub](eigrp-stub.md)
 * [EIGRP Show Commands](eigrp-show-cmds.md)
+* [EIGRP Router-ID](eigrp-rid.md)
 
 ## Important Terms
 
