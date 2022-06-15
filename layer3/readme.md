@@ -6,7 +6,6 @@
 * [BGP](bgp/)
 * [EIGRP](eigrp/)
 * [VRF-Lite](vrf-lite)
-* [Back to Parent Directory](..)
 
 ## Important Terms
 
