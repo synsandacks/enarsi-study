@@ -1,14 +1,16 @@
 ## ENARSI Study
 
-This repo will serve as a place to store all of my notes associated with my Cisco ENARSI studies. I will try to keep the repo as organized as possible, but the layout likely will not map exactly to the exam topics. I am following Nick Russo's [ENARSI Study Plan](http://njrusmc.net/jobaid/enarsi_studyplan.xlsx) and my notes will likely map better to that. 
+This repo will serve as a place to store all of my notes associated with my Cisco ENARSI studies. I will try to keep the repo as organized as possible. I am following Nick Russo's [ENARSI Study Plan](http://njrusmc.net/jobaid/enarsi_studyplan.xlsx) and my note taking will map to that. 
 
 The ultimate goal of this repo is to store my notes, but I made it public with a hope that it might help someone else.
 
 ## Repository Links
  
-* [EIGRP](eigrp/)
-* [BGP](bgp/)
+* [Layer 3 Technologies](layer3/)
 * [VPN Technologies](vpn/)
+* [Infrastructure Security](infrasec/)
+* [Infrastructure Services](infraserv/)
+
 
 ## External Resources
 

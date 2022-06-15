@@ -1,9 +1,8 @@
-## VPN Technologies Quick Info
+## VPN Technologies
 
 ## Topics
 
 * [GRE Tunnel Recursive Routing](gre-recursive.md)
-* [VRF-Lite](vrf-lite.md)
 
 ## Important Terms
 

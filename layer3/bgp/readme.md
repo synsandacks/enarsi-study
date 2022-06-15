@@ -27,4 +27,4 @@
 
 * **eBGP** - BGP peering where the neighbors do not share a common ASN.
 
-* **Network Layer Reachability (NLRI)** - The data contained in BGP Update packets providing peers with the IP prefixes and associated subnet masks in CIDR notation.
+* **Network Layer Reachability Information (NLRI)** - The data contained in BGP Update packets providing peers with the IP prefixes and associated subnet masks in CIDR notation.
