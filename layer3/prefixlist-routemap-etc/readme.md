@@ -1,4 +1,4 @@
-## ACLs - Prefix Lists - Route-Maps - etc
+## Prefix Lists - Route-Maps - etc
 
 ## Topics
 

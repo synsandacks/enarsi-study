@@ -1,6 +1,6 @@
-## IP Access Lists
+## Access Control Lists
 
-IP access control lists (ACL) are primarily used to control what traffic can ingress or egress a network device. In addition to this they can be used to control routing updates, route redistribution, and limiting debug output. These notes will primarily focus on the basics of ACLs controlling ingress and egress traffic. 
+Access Control Lists (ACL) are primarily used to control what traffic can ingress or egress a network device. In addition to this they can be used to control routing updates, route redistribution, and limiting debug output. These notes will primarily focus on the basics of ACLs controlling ingress and egress traffic. 
 
 Two primary types of Access Lists exist, Standard and Extended. 
 

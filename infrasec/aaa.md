@@ -32,6 +32,8 @@ username admin privilege 15 secret p@ssw0rd!
 
 ### Enable AAA
 
+This step is required to enable AAA on an IOS device. If this step is not completed AAA related configuration commands aren't available. 
+
 ```
 aaa new-model
 ```
