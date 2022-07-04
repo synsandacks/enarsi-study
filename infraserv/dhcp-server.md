@@ -67,7 +67,7 @@ ip dhcp excluded-address 192.168.20.1 192.168.20.10
 
 ## Troubleshooting DHCP Server
 
-Even with all of the configuration in place above someone could disable the DHCP server service. There are two ways to confirm that the DHCP Server has been disabled on the router.
+Even with all the above configuration in place someone could disable the DHCP server service. There are two ways to confirm that the DHCP Server has been disabled on the router.
 
 ### Option 1
 
@@ -87,7 +87,7 @@ Proto        Remote      Port      Local       Port  In Out  Stat TTY OutputIF
  17     0.0.0.0             0 --any--            67   0   0 1002211   0
 ```
 
-## Option 2
+### Option 2
 
 Validate whether the service is disabled in the running config by issuing the following command:
 
